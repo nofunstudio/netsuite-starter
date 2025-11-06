@@ -1,41 +1,19 @@
 {
-  "name": "netsuite-starter",
-  "author": "Felipe Chang <felipechang@hardcake.org>",
+  "name": "my-netsuite-project",
+  "author": "James Simmons <james@example.com>",
   "license": "GPL-3.0",
-  "version": "1.0.22",
-  "description": "Scaffold to build NetSuite account customizations",
-  "keywords": [
-    "netsuite",
-    "sdf",
-    "typescript",
-    "suitescript",
-    "suitecloud"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/felipechang/netsuite-starter"
-  },
-  "bugs": {
-    "url": "https://github.com/felipechang/netsuite-starter/issues"
-  },
-  "main": "bin/config.js",
-  "bin": {
-    "nsx": "bin/index.js"
-  },
-  "dependencies": {
-    "archiver": "^5.3.0",
-    "change-case": "^4.1.2",
-    "dotenv": "^10.0.0",
-    "ejs": "^3.1.6",
-    "inquirer": "^8.1.2",
-    "moment": "^2.29.1"
+  "version": "0.0.1",
+  "description": "NetSuite Account Customization Project",
+  "scripts": {
+    "test": "jest"
   },
   "devDependencies": {
-    "@types/archiver": "^5.1.1",
-    "@types/change-case": "^2.3.1",
-    "@types/ejs": "^3.0.7",
-    "@types/inquirer": "^7.3.3",
-    "@types/moment": "^2.13.0",
-    "@types/node": "^16.4.12"
+    "@hitc/netsuite-types": "^2021.2.0",
+    "@oracle/suitecloud-unit-testing": "^1.1.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.12",
+    "jest": "^27.0.6",
+    "netsuite-starter": "^1.0.22",
+    "typescript": "^5.9.3"
   }
 }

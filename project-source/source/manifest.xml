@@ -1,0 +1,5 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+    <projectname>my-netsuite-project</projectname>
+    <frameworkversion>1.0</frameworkversion>
+</manifest>
+
